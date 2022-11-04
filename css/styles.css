@@ -283,6 +283,26 @@ img {
   margin-right: 0px;
 }
 
+.label {
+  position: relative;
+}
+
+.label-text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(47, 48, 58, 0.8);
+
+  font-size: 14px;
+  line-height: 1.1429;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+
+  color: var(--hero-color);
+  padding: 27px 0px;
+}
+
 /* Команда */
 
 .comand-section {
@@ -484,8 +504,13 @@ img {
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms ease;
-  background-color: #188ce8;
-  color: white;
+  background-color: rgba(33, 150, 243, 0.9);
+  padding: 63px 24px;
+
+  font-size: 18px;
+  line-height: 1.5556;  
+  letter-spacing: 0.03em;  
+  color: var(--hero-color);
 }
 
 .box:hover .overlay {
@@ -589,14 +614,3 @@ img {
 
 
 
-.ddd {
-  position: relative;
-}
-
-.zagolovok {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background-color: #2f303a;
-  text-align: center;
-}
